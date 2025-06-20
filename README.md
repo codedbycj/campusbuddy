@@ -1,5 +1,11 @@
-# CampusBuddy
+# CampusBuddy - Class Scheduler Web App
 
-A web app for students to manage class schedules with color-coded blocks, offline support, and local storage.
+CampusBuddy helps students organize their class schedules using a clean, mobile-friendly interface with persistent local storage.
+
+### 🛠 Features
+- Add / edit / delete classes
+- LocalStorage support
+- Color-coded class blocks
+- Offline-ready (optional PWA setup)
 
 🔗 **[Live Demo](https://codedbycj.github.io/campusbuddy/)**  
