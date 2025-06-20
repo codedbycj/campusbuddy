@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CampusBuddy - Class Scheduler</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>CampusBuddy</h1>
+    <p>Organize your classes and exams easily</p>
+  </header>
+
+  <main>
+    <section id="add-class">
+      <h2>Add New Class</h2>
+      <form id="class-form">
+        <input type="text" id="class-name" placeholder="Class Name" required />
+        <input type="text" id="class-code" placeholder="Class Code" required />
+        <input type="color" id="class-color" title="Pick a color" value="#007BFF" />
+        <input type="text" id="class-time" placeholder="Class Time (e.g. Mon 10-12)" required />
+        <button type="submit">Add Class</button>
+      </form>
+    </section>
+
+    <section id="schedule">
+      <h2>Your Schedule</h2>
+      <div id="class-list"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
